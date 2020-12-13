@@ -21,6 +21,8 @@ def is_valid(passport):
             count += 1
     return count == 0
 
+def validate(passport):
+    return True
 
 
 file = open('input.txt')
